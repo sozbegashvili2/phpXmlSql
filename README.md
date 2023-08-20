@@ -49,6 +49,7 @@ The project directory is organized as follows:
 - db/: Contains SQL database scripts.
 - xml/: Contains XML files for demonstration purposes.
 
+```bash
 project-root/
 ├── nginx/
 │   └── default.conf           # Nginx server configuration for Docker
@@ -77,6 +78,5 @@ project-root/
 ├── docker-compose.yml
 ├── Dockerfile
 └── Dockerfile.nginx
-
-
+```
 
