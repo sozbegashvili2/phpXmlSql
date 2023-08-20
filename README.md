@@ -75,8 +75,8 @@ project-root/
 │   │       ├── templates/
 │   │       │   └── app_layout.php               # Base HTML skeleton for the application
 │   │       └── ...
-├── docker-compose.yml
-├── Dockerfile
-└── Dockerfile.nginx
+├── docker-compose.yml                           # docker container definitions
+├── Dockerfile                                   # set of rules to execute in the docker container
+└── Dockerfile.nginx                             # set of NGINX rules to execute in the docker container
 ```
 
