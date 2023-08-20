@@ -51,7 +51,7 @@ $productFields = array_keys($productList[0]); // This will get all the product f
                         <img src="<?= $product[$field]; ?>" alt="Product Thumbnail" class="img-thumbnail" width="100">
                     </td>
                     <!-- If data is too long, we will shorten it and place three dots '...' in the end -->
-                <?php elseif (strlen($product[$field]) > 50) : ?>
+                <?php elseif (isset($product[$field]) && strlen($product[$field]) > 50) : ?>
                     <td><?=  substr($product[$field], 0, 50) . "..."; ?></td>
                     <!-- default case we just display information -->
                 <?php else : ?>
