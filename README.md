@@ -15,7 +15,7 @@ Follow these steps to setup the project:
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/yourusername/cyberplatform.git
+    git clone https://github.com/sozbegashvili2/phpXmlSql.git
     cd phpXmlSql
     ```
 
@@ -46,8 +46,8 @@ docker-compose down
 The project directory is organized as follows:
 
 - src/: Contains the PHP source code files.
-- db/: Contains SQL database scripts.
-- xml/: Contains XML files for demonstration purposes.
+- src/public/db/: Contains SQL database scripts.
+- src/public/xml/: Contains XML files for demonstration purposes.
 
 ```bash
 project-root/
