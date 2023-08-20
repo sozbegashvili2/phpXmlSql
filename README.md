@@ -71,7 +71,7 @@ project-root/
 │   │       │   ├── products_list.php            # Display product list HTML
 │   │       │   └── ...
 │   │       ├── task2/
-│   │       │   └── task2.php                    # Logic for TASK 2
+│   │       │   └── task2.php                    # Logic for TASK 2 and TASK 3
 │   │       ├── templates/
 │   │       │   └── app_layout.php               # Base HTML skeleton for the application
 │   │       └── ...
