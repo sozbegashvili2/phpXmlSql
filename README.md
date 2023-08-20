@@ -51,31 +51,32 @@ The project directory is organized as follows:
 
 project-root/
 ├── nginx/
-│   └── default.conf    //This holds the nginx server configuration (its for docker)
-├── src/      // the application codebase lies under /src directory
+│   └── default.conf           # Nginx server configuration for Docker
+├── src/
 │   ├── public/
 │   │   ├── configurations/
-│   │   │   └── config.php       // it holds the content and title definition for app_layout.php
+│   │   │   └── config.php     # Defines content and title for app_layout.php
 │   │   ├── db/
-│   │   │   ├── db_credentials.php     //This file holds database credentials to connect it
-│   │   │   └── db_functions.php      //This file holds the functions to connect to db, retrieve data, delete ... etc
-│   │   ├── uploads/      //This directory contains uploaded images during product creation
-│   │   ├── xml/     // this directory holds XML for demonstration
-|   |   |      ├── cxml_po_sample.xml
+│   │   │   ├── db_credentials.php    # Holds database connection credentials
+│   │   │   └── db_functions.php     # Contains functions to interact with the database
+│   │   ├── uploads/            # Directory for uploaded images during product creation
+│   │   ├── xml/
+│   │   │   └── cxml_po_sample.xml   # Sample XML file for demonstration
 │   │   └── views/
 │   │       ├── products/
-│   │       │   ├── create_product.php  // contains create product form HTML
-│   │       │   ├── process_create_product.php  // contains logic to create product record in DB
-│   │       │   ├── process_delete_product.php // contains logic to delete product record in DB
-│   │       │   ├── products_list.php // displays product list HTML
+│   │       │   ├── create_product.php           # HTML form for creating a product
+│   │       │   ├── process_create_product.php   # Logic for creating a product record
+│   │       │   ├── process_delete_product.php   # Logic for deleting a product record
+│   │       │   ├── products_list.php            # Display product list HTML
 │   │       │   └── ...
 │   │       ├── task2/
-│   │       │   └── task2.php // contains the logic for TASK 2
+│   │       │   └── task2.php                    # Logic for TASK 2
 │   │       ├── templates/
-│   │       │   └── app_layout.php  // The base HTML skeleton for whole application
+│   │       │   └── app_layout.php               # Base HTML skeleton for the application
 │   │       └── ...
 ├── docker-compose.yml
 ├── Dockerfile
 └── Dockerfile.nginx
+
 
 
