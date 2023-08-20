@@ -1,5 +1,7 @@
 # Skill test for PHP, XML and SQL
 
+Task 2 and Task 3 is united together in the task2.php
+
 ## Prerequisites
 
 Make sure you have the following installed on your system:
