@@ -57,6 +57,7 @@ project-root/
 │   └── default.conf           # Nginx server configuration for Docker
 ├── src/
 │   ├── public/
+|   |   ├── index.php          # Main entry of the application
 │   │   ├── configurations/
 │   │   │   └── config.php     # Defines content and title for app_layout.php
 │   │   ├── db/
