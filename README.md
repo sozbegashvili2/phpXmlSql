@@ -33,6 +33,8 @@ Follow these steps to setup the project:
     docker-compose up -d
     ```
 
+P.S Don't forget to import the database
+
 ## Usage
 
 You can access the application in your web browser at `http://localhost`.
